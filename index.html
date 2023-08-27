@@ -9,7 +9,16 @@
 </head>
 <body>
     <div class="mainPage">
-        <div class="leftSide">Left Side</div>
+
+        <!-- Left side of the main page -->
+        <div class="leftSide">
+            <div class="title">
+                <h1>ODIN PROJECT</h1>
+            </div>
+
+            <div>im a pic credit</div>
+
+        </div>
 
         <div class="rightSide">
 
@@ -21,28 +30,49 @@
                 </p>
             </div>
 
+            <h1>Lets do this</h1>
             <!-- Form  -->
+            <div class="form-wrapper">
+            <form action="" method="post">
+                <div class="inner-form">
+                <!-- Left Hand items on the form eg = F.Name Email Password -->
+                <div class="left-form-items">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="user-first-name">
+            
+                <label for="email">Email</label>
+                <input type="email" id="email" name="user-email">
+                    
+                <label for="password">Password</label>
+                <input type="password" id="password" name="user-password">
+                </div>
+                
+                <!-- Right hand side form items eg = L.Name -->
+                <div class="right-form-item">
+                <label for="last-name">Last name</label>
+                <input type="text" id="last-name" name="user-last-name">
+    
+                    
+                <label for="phone-number">Phone Number</label>
+                <input type="tel" id="phone-number" name="user-phone-number">
 
-            <div class="formBox">
-                <div>
-                    <h1>Lets do this!</h1>
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="user-confirm-password">
+                </div>
                 </div>
 
-                <div>
-                    <form action="" method="post">
-                        <ul>
-                            <li>
-                                <label for="name">Name:</label>
-                                <input type="text" name="user_name" id="name">
-                            </li>
-                        </ul>
-                    </form>
-
+                <!-- Form Submit Button -->
+                <div class="form-button">
+                <input type="submit">
                 </div>
-
+            </form>
             </div>
 
+            <p>already have an account?</p>
 
+            
+
+            
         </div>
     </div>
     
